@@ -1,0 +1,45 @@
+{
+  "name": "untitled3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "hot": "webpack-dev-server --hot --inline",
+    "dll_react": "webpack --config=webpackdll/dll.react.js"
+  },
+  "dependencies": {
+    "antd": "^2.2.1",
+    "babel": "^6.5.2",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.16.0",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "crypto-js": "^3.1.7",
+    "css": "^2.2.1",
+    "css-loader": "^0.25.0",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.1",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "morgan": "~1.7.0",
+    "node-jquery": "^0.1.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-routing": "0.0.7",
+    "serve-favicon": "~2.3.0",
+    "style": "0.0.3",
+    "style-loader": "^0.13.1",
+    "superagent": "^2.3.0",
+    "underscore": "^1.8.3",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
